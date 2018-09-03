@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  html #container,
+  body #container {
+    width: 100%;
+    height: 100%;
+    background: rgba(169, 182, 255, 0.4); }
+    html #container .field,
+    body #container .field {
+      width: 500px;
+      height: 300px;
+      margin: 0 auto; }
+    html #container #opponent,
+    body #container #opponent {
+      background: rgba(115, 255, 169, 0.4); }
+    html #container #self,
+    body #container #self {
+      background: rgba(255, 115, 115, 0.4);
+      position: relative; }
+    html #container #hands,
+    body #container #hands {
+      position: absolute;
+      margin: auto;
+      top: 50%;
+      left: 50%; }
+    html #container .card,
+    body #container .card {
+      position: absolute;
+      width: 60px;
+      height: 80px;
+      border: 1px solid;
+      border-radius: 3px;
+      background: #c9ffb0;
+      transform-origin: 0 300%; }
+    html #container #c1,
+    body #container #c1 {
+      transform: rotate(-15deg) translate(-50%, -50%);
+      z-index: 600; }
+    html #container #c2,
+    body #container #c2 {
+      transform: rotate(-5deg) translate(-50%, -50%);
+      z-index: 700; }
+    html #container #c3,
+    body #container #c3 {
+      transform: rotate(5deg) translate(-50%, -50%);
+      z-index: 800; }
+    html #container #c4,
+    body #container #c4 {
+      transform: rotate(15deg) translate(-50%, -50%);
+      z-index: 900; }
+
+/*# sourceMappingURL=main.css.map */
